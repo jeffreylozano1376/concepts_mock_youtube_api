@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort
 
-# flask application instance boi
+# flask application instance
 app = Flask(__name__)
 api = Api(app)
 
